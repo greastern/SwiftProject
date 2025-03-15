@@ -204,3 +204,18 @@ fastlane/README.md
 vendor/bundle/
 tmp/
 temp/
+
+### Sentry.io Integration (iOS) ###
+
+# Sentry auth tokens and configs
+.sentryclirc
+sentry.properties
+**/ios/sentry.properties
+
+# Sentry debug symbols
+*.dSYM.zip
+*.dSYM/
+sentry-symbols/
+
+# Sentry build artifacts
+sentry-cli-*
